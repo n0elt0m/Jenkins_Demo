@@ -16,6 +16,7 @@ func Index(w http.ResponseWriter, r *http.Request) {
 	fmt.Fprintf(w, "Random number is : %v", RandomNumber())
 }
 
+// comment here
 func RandomNumber() int {
 	return rand.Intn(1000)
 }
