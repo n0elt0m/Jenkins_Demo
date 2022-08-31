@@ -9,7 +9,7 @@ import (
 func main() {
 	http.HandleFunc("/", Index)
 	println("SERVER RUNNING!!!")
-	http.ListenAndServe(":8000", nil)
+	http.ListenAndServe(":8001", nil)
 }
 func Index(w http.ResponseWriter, r *http.Request) {
 	w.WriteHeader(http.StatusOK)
