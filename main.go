@@ -18,7 +18,6 @@ func Index(w http.ResponseWriter, r *http.Request) {
 
 // comment here
 
-// comments
 func RandomNumber() int {
 	return rand.Intn(1000)
 }
